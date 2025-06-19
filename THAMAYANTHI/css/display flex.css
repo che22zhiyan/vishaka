@@ -1,0 +1,18 @@
+   .car{
+    background-color:rgb(42, 84, 213) ;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    border: 3px dotted chartreuse;
+    padding: 10px;
+    height: 100vh;
+
+} 
+
+form{
+    border: 3px double chartreuse;
+    padding: 5px;
+    background-color:rgb(133, 21, 42);
+    height: 550px;
+
+}

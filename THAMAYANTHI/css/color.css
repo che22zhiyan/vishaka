@@ -1,0 +1,33 @@
+
+
+body{
+    background-color:pink ;
+    background-image: url(imag/Untitled.png);
+    background-repeat: no-repeat;
+    background-position:centre ;
+    background-size :cover;
+}
+.b{
+    border: 5px solid rgb(10, 98, 12);
+}
+
+.B{
+    border:6px solid skyblue;
+    background-color: darkkhaki;
+}
+.c{
+    background-color: cadetblue;
+    font-size: 2rem;
+    font-style:italic ;
+}
+.c{
+    color:rgb(156, 53, 53)
+
+}
+.o{
+    color: chocolate;
+    }
+    .r{
+        color: chartreuse;
+    }
+

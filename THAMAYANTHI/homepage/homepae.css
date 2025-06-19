@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .car{
+    background-color: white;
+    color: black;
+
+    box-sizing: border-box;
+   
+  
+    
+    width: 300px;
+    padding: 10px;
+}
+body{
+    background-color: blue;
+    color: white;
+} */
+
+
+.car{
+    background-color:white;
+    display: inline-block;
+    justify-content: center;
+     align-items: center; 
+   color: black;
+     width: 200px;
+    padding: 10px;
+    height: 20vh;
+
+    
+}
+
+
+    body{       
+         background-color: blue;
+        color: white;
+    
+    
+        
+    padding: 5px;
+    
+    height: 250px;
+
+
+}

@@ -1,0 +1,145 @@
+p{
+    color:brown;
+}
+
+
+#c{
+    color:green;
+   
+}
+
+.th{
+    color:rgba(113, 162, 8, 0.996);
+    padding top:10px;
+    padding-left:10 px;
+    padding-right:100px;
+    padding bottom:10px;
+    border:5px dotted purple;
+    background-color:pink;
+    margin top:180px;
+    margin-left :180px;
+    margin-right:200px;
+    margin-bottom:200px
+text-align:centre;
+
+}
+
+#tc{
+    color: darkgreen;
+    text-shadow: 5px 5px 10px red;
+    box-shadow: 5px 5px 10px violet;
+    }
+
+    *{
+       color:darkcyan 
+    }
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px red;
+   }
+
+    #c{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100;
+        font-weight: 200;
+        text-align: left;
+        font-style: italic;
+       }
+.th{
+    text-transform: uppercase;
+    text-decoration:underline ;
+}
+h5{
+    color:red;
+     }
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color:blue;
+}
+a:active{
+    color:aqua
+}
+a:hover{
+    color:darkmagenta
+}
+p::before{
+    content: "kiwi";
+    font-weight: bold;
+}
+p::after{
+    content:"apple"
+}
+p::first-letter{
+    font-size: 2em;
+    color:darkorange
+}
+p::first-line{
+    font-style: italic;
+}
+.tc::selection{
+    background-color: darkorchid;
+    color:goldenrod;
+}
+.circle{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(14, 139, 216);
+    border-radius: 50%;
+    border- radius 10px; ;
+}
+.i{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: centre;
+    line-height: 100px;
+}
+.i{
+    box-sizing:content-box;
+    padding: 1px;
+    border: 5px dotted blue;
+    color:goldenrod;
+    background-color:green;
+    border-radius: 10px;
+}
+ .p{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: centre;
+    line-height: 100px;
+    font-style: italic;
+    font-weight: 700;
+ }
+.p{
+    box-sizing:border-box;
+    padding: 1px;
+    border: 5px dotted blue;
+    color:goldenrod;
+    background-color:green;
+}
+.m{
+    width:0;
+    height: 0;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    border-bottom:100px solid red;
+    box-shadow:5px 5px 10px black;
+    text-shadow:1px 1px 2px green;
+    
+}
+.u{
+    box-sizing: border-box;
+    /* padding: 20px;
+    border-radius: 5px solid yellow;
+    color: brown;
+    background-color:pink ;
+    margin: 80px; */
+    padding-left: 100px;
+    padding-right: 100px;
+}

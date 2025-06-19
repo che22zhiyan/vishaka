@@ -1,0 +1,111 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+
+
+.a{
+    background-color: aqua;
+    transition: background 0.5 ease,transform 0.35;
+    color: brown;
+}
+.a:hover{
+    background-color: darkred;
+    transform: scale(1.1);
+}
+@keyframes slidein {
+    from{
+        transform: translatex(0);
+            }
+            to{
+                transform: translatey(100%);
+            }
+    
+}
+
+.t{
+    background-color: rgb(232, 132, 50);
+   animation: slidein 3s infinite alternate;
+    color: rgb(39, 137, 242);
+    height: 40px;
+    width: 115px;
+}
+
+@keyframes zoomout {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.5);
+    }
+    
+}
+
+        form{
+            animation: zoomout 1s ease-in-out  ;
+       
+        padding: 5px;
+        background-color:rgb(133, 21, 42);
+        height: 650px;
+    width: 300px;
+    align-items: center;
+    justify-content: center; 
+                }
+                @keyframes bounce{
+                    0%,100%{
+                        transform: translatex(0);
+                    }
+                    50%{
+                        transform: translatey(-30px);
+                    }
+                   
+                }
+                    .car{
+                        animation:bounce 1s  infinite;
+                        text-align: center;
+                        font-weight:bolder;
+                        color: darkmagenta;
+                        font-style: italic;
+                        font-size:32px ;
+                        text-shadow: 1px 1px 3px blueviolet;
+                        
+
+                    }
+                    div{
+                        
+                        
+                        text-align: center;
+                        font-weight:bolder;
+                        color: darkmagenta;
+                        font-style: italic;
+                        font-size:32px ;
+                        text-shadow: 1px 1px 3px blueviolet;
+                        
+
+                    }
+                    @keyframes slideout {
+                        from{
+                            transform: translatex(100);
+                                }
+                                to{
+                                    transform: translatey(-100%);
+                                }
+                            }
+.r{
+    animation: slidein 3s infinite alternate;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+.w{
+animation: rotate 1s linear infinite;
+
+}
+
+                

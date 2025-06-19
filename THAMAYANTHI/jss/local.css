@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+.container{
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input{
+    width: 100px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+border:1px solid white;
+}
+button{
+    width:100px;
+        padding: 10px;
+        background-color:green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+            margin-top: 10px ;
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: green;
+}
+
+#message{
+    margin-top: 10px;
+    font-weight:bold;
+}

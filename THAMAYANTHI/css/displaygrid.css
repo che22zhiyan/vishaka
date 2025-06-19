@@ -1,0 +1,28 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+.rose{
+    display:grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr auto auto;
+    gap: 10px;
+    background-color:#3d63d4 ;
+    border: 3px double rgb(237, 26, 26);
+    margin-top: 30px;
+}
+.pink{
+    background-color: aqua;
+    color: violet;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    font-family:fantasy;
+    border-radius: 10px;
+  text-align: center;
+
+    margin: 10px;
+    padding: 30px;
+    width: 300px;
+}
